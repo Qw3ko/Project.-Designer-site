@@ -1912,7 +1912,7 @@ button:hover {
 
     .paragraph3 {
         position: absolute;
-        left: -17%;
+        left: -19%;
         top: 27%;
         width: 59px;
         height: 50px;
@@ -1927,7 +1927,7 @@ button:hover {
 
     .paragraph4 {
         position: absolute;
-        left: -17%;
+        left: -19%;
         top: 32%;
         font-family: 'Nunito Sans';
         font-style: normal;
@@ -1939,7 +1939,7 @@ button:hover {
 
     .paragraph5 {
         position: absolute;
-        left: -17%;
+        left: -19%;
         top: 35%;
         width: 140px;
         height: 50px;
@@ -1954,7 +1954,7 @@ button:hover {
 
     .paragraph6 {
         position: absolute;
-        left: -17%;
+        left: -19%;
         top: 38%;
         width: 100px;
         height: 50px;
@@ -2418,22 +2418,22 @@ button:hover {
     .image34 {
         display: flex;
         position: absolute;
-        top: 2%;
+        top: 15%;
         left: 7%;
     }
 
     .image35 {
         display: flex;
         position: absolute;
-        top: 40%;
+        top: 55%;
         left: 11%;
     }
 
     .image36 {
         display: flex;
         position: absolute;
-        top: 40%;
-        left: 80%;
+        top: 55%;
+        left: 89%;
     }
     
     .image37 {
@@ -2495,10 +2495,13 @@ button:hover {
         width: 390px;
     }
 
+    .projects-navigation {
+        display: none;
+    }
 
     .completed_projects_3 {
         position: relative;
-        width: 390px;
+        width: 350px;
         height: 250px;
     }
 
