@@ -525,9 +525,13 @@ button:hover {
 }
 
 .completed_projects_3 {
-    position: relative;
+    background-image: url(../images/image\ 2.1.png);
+    background-size: cover;
+    position: absolute;
     width: 950px;
     height: 800px;
+    left: 45%;
+    bottom: 35%;
 }
 
 .content_list {
@@ -540,6 +544,28 @@ button:hover {
     font-size: 13px;
     line-height: 27px;
     color: #959595;
+}
+
+.video {
+    background-image: url(../images/image\ 6.png);
+    background-size: cover;
+    filter: brightness(0.2);
+    width: 817px;
+    height: 434px;
+    position: absolute;
+    z-index: 1;
+    top: -8%;
+    left: 30%;
+}
+
+.btn_play {
+    background-image: url(../images/btn_play.svg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    z-index: 5;
+    margin-left: 40%;
+    margin-top: 18%;
 }
 
 .collumn {
@@ -755,7 +781,7 @@ button:hover {
 
 .paragraph15 {
     top: 5%;
-    margin-left: 15%;
+    margin-left: 28%;
     width: 230px;
     height: 47px;
     font-family: 'Nunito Sans';
@@ -1103,19 +1129,6 @@ button:hover {
     position: absolute;
     left: 950px;
     bottom: 15%;
-}
-
-.image9 {
-    position: absolute;
-    left: 30%;
-    top: -8%;
-    filter: brightness(25%);
-}
-
-.image10 {
-    position: absolute;
-    left: 47%;
-    bottom: 98%;
 }
 
 .image11 {
@@ -1825,6 +1838,176 @@ button:hover {
     ;
 }
 
+@media screen and (max-width: 1800px) {
+
+    .completed_projects_3 {
+        width: 800px;
+        height: 600px;
+        bottom: 45%;
+    }
+
+    .content4 {
+        position: absolute;
+        left: 64%;
+    }
+
+    .image31 {
+        width: 800px;
+        height: 800px;
+        left: 51%;
+    }
+
+    .image18 {
+        left: 73%;
+    }
+
+    .image19 {
+        left: 73%;
+    }
+    
+}
+
+@media screen and (max-width: 1600px) {
+
+    .paragraph11 {
+        left: 52%;
+    }
+
+    .paragraph13 {
+        left: 52%;
+    }
+
+    .paragraph18 {
+        left: 52%;
+    }
+
+    .paragraph19 {
+        left: 44%;
+    }
+
+    .completed_projects_3 {
+        width: 500px;
+        height: 400px;
+        bottom: 55%;
+        left: 55%;
+    }
+
+    .button4 {
+        left: 70%;
+    }
+
+    .page2 {
+        left: 50%;
+    }
+
+    .content {
+        left: 153px;
+    }
+
+    .content2 {
+        left: 580px;
+    }
+
+    .content3 {
+        left: 1005px;
+    }
+
+    .content4 {
+        position: absolute;
+        left: 64%;
+    }
+
+    .gallery {
+        left: 120px
+    }
+
+    .gallery_2 {
+        left: 8%;
+    }
+
+    .image6 {
+        left: 54%;
+    }
+
+    .image7 {
+        left: 61%;
+    }
+
+    .image8 {
+        left: 57%;
+    }
+
+    .image11 {
+        left: 56%;
+    }
+    
+    .image12 {
+        left: 54%;
+    }
+
+    .image13 {
+        left: 61%;
+    }
+
+    .image14 {
+        left: 57%;
+    }
+
+    .image17 {
+        width: 400px;
+        height: 600px;
+        left: 30%;
+    }
+
+    .image18 {
+        margin-left: -12%;
+        width: 450px;
+        height: 350px;
+    }
+
+    
+    .image19 {
+        margin-top: -2%;
+        margin-left: -12%;
+        width: 450px;
+        height: 900px;
+    }
+
+    .image20 {
+        width: 400px;
+        height: 400px;
+        left: 30%;
+        margin-top: -15%;
+    }
+
+    .image21 {
+        left: 56%;
+    }
+
+    .image22 {
+        left: 64%;
+    }
+
+    .image23 {
+        left: 59%;
+    }
+
+    .image31 {
+        width: 800px;
+        height: 800px;
+        left: 43%;
+    }
+
+    .image18 {
+        left: 73%;
+    }
+
+    .image19 {
+        left: 73%;
+    }
+    
+}
+
 @media screen and (max-width: 1300px) {
 
     .projects {
@@ -2425,15 +2608,15 @@ button:hover {
     .image35 {
         display: flex;
         position: absolute;
-        top: 55%;
+        top: 20%;
         left: 11%;
     }
 
     .image36 {
         display: flex;
         position: absolute;
-        top: 55%;
-        left: 89%;
+        top: 20%;
+        left: 80%;
     }
     
     .image37 {
@@ -2493,6 +2676,10 @@ button:hover {
 
     .completed_projects {
         width: 390px;
+    }
+
+    .completed_projects_3 {
+        display: none;
     }
 
     .projects-navigation {
@@ -2557,6 +2744,21 @@ button:hover {
 
     .content8 {
         display: none;
+    }
+
+    .video {
+        width: 342px;
+        height: 242px;
+        margin-top: -180%;
+        margin-left: -24%;
+        background-size: cover;
+    }
+
+    .btn_play {
+        width: 100px;
+        height: 100px;
+        margin-left: 36%;
+        margin-top: 20%;
     }
 
 }
